@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Kegiatan Kampus</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="halaman">
+
+        <div class="samping">
+            <p class="nomor">FORM 02 / KAMPUS</p>
+            <h1>Evq University<br /></h1>
+            <div class="garis"></div>
+            <p class="sambutan">
+                Selamat datang teman teman yang ingin berkegiatan.
+            </p>
+
+            <div class="info">
+                <p class="info-judul">SEBELUM MENDAFTAR</p>
+                <p>01. Isi data diri dengan benar.</p>
+                <p>02. Pilih kegiatan sesuai minat.</p>
+                <p>03. Siapkan bukti pembayaran.</p>
+            </div>
+
+            <p class="catatan-samping">KEGIATAN MAHASISWA</p>
+        </div>
+
+        <div class="konten">
+            <div class="judul-form">
+                <p class="label">FORMULIR PENDAFTARAN</p>
+                <h2>Data Peserta</h2>
+                <p>Lengkapi informasi berikut untuk mendaftar kegiatan.</p>
+            </div>
+
+            <form action="" method="post" enctype="multipart/form-data">
+
+                <fieldset>
+                    <legend>01. Identitas</legend>
+
+                    <label for="namalengkap">Nama Lengkap</label>
+                    <input type="text" id="namalengkap" name="namalengkap" />
+
+                    <label for="nim">Nomor Induk Mahasiswa</label>
+                    <input type="text" id="nim" name="nim" />
+
+                    <label for="prodi">Program Studi</label>
+                    <select id="prodi" name="prodi">
+                        <option value="Informatika">Informatika</option>
+                        <option value="Sistem Informasi">Sistem Informasi</option>
+                        <option value="Teknik Industri">Teknik Industri</option>
+                    </select>
+
+                    <p class="label-pilihan">Jenis Kelamin</p>
+                    <div class="pilihan">
+                        <input type="radio" id="lakilaki" name="jeniskelamin" value="Laki-laki" />
+                        <label for="lakilaki">Laki-laki</label>
+
+                        <input type="radio" id="perempuan" name="jeniskelamin" value="Perempuan" />
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>02. Pilihan Kegiatan</legend>
+
+                    <p class="label-pilihan">Kegiatan yang Ingin Diikuti</p>
+                    <div class="pilihan">
+                        <p>
+                            <input type="radio" id="seminar" name="jeniskegiatan" value="Seminar" />
+                            <label for="seminar">Seminar</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="pelatihan" name="jeniskegiatan" value="Pelatihan" />
+                            <label for="pelatihan">Pelatihan</label>
+                        </p>
+                        <p>
+                            <input type="radio" id="diskusi" name="jeniskegiatan" value="Diskusi" />
+                            <label for="diskusi">Diskusi</label>
+                        </p>
+                    </div>
+
+                    <p class="label-pilihan">Bidang Minat</p>
+                    <div class="pilihan bidang">
+                        <p>
+                            <input type="checkbox" id="teknologi" name="bidang" value="Teknologi" />
+                            <label for="teknologi">Teknologi</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="organisasi" name="bidang" value="Organisasi" />
+                            <label for="organisasi">Organisasi</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="karier" name="bidang" value="Karier" />
+                            <label for="karier">Karier</label>
+                        </p>
+                    </div>
+
+                    <label for="waktu">Waktu Kegiatan</label>
+                    <select id="waktu" name="waktu">
+                        <option value="Pagi">Pagi</option>
+                        <option value="Siang">Siang</option>
+                        <option value="Sore">Sore</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>03. Informasi Tambahan</legend>
+
+                    <label for="harapan">Apa yang Ingin Kamu Dapatkan dari Kegiatan Ini?</label>
+                    <textarea id="harapan" name="harapan" rows="5" cols="30"></textarea>
+
+                    <label for="bukti">Bukti Pembayaran</label>
+                    <input type="file" id="bukti" name="bukti" accept="application/pdf, image/jpeg, image/png" />
+
+                    <p class="catatan-file">Format file: PDF, JPG, atau PNG.</p>
+                </fieldset>
+
+                <div class="aksi">
+                    <p>Periksa kembali data sebelum dikirim.</p>
+                    <input type="submit" name="daftar" value="Kirim Formulir" />
+                </div>
+
+            </form>
+
+            <p class="footer">FORMULIR PENDAFTARAN KEGIATAN KAMPUS</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

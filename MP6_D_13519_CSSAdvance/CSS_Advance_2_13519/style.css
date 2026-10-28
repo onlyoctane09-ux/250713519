@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 35px 15px;
+    font-family: Arial, sans-serif;
+    background-color: #e9e5df;
+    color: #292929;
+}
+
+.halaman {
+    max-width: 1050px;
+    margin: 0 auto;
+    background-color: #fffdf8;
+    display: flex;
+    align-items: stretch;
+}
+
+.samping {
+    width: 32%;
+    padding: 35px 25px;
+    box-sizing: border-box;
+    background-color: #a64f38;
+    color: #fffaf3;
+}
+
+.nomor {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.samping h1 {
+    font-size: 36px;
+    line-height: 1.15;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+.garis {
+    width: 55px;
+    height: 4px;
+    background-color: #f0c9a8;
+    margin-bottom: 22px;
+}
+
+.sambutan {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.info {
+    margin-top: 55px;
+    padding-top: 18px;
+    border-top: 1px solid #d18b76;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.info-judul {
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+.catatan-samping {
+    margin-top: 60px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.konten {
+    width: 68%;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.judul-form {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ded8cf;
+    padding-bottom: 18px;
+}
+
+.label {
+    color: #a64f38;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.judul-form h2 {
+    font-size: 29px;
+    margin: 10px 0;
+}
+
+.judul-form p:last-child {
+    color: #77716b;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+fieldset {
+    border: none;
+    border-top: 1px solid #d8d1c7;
+    padding: 20px 0;
+    margin: 0;
+}
+
+legend {
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #a64f38;
+}
+
+.konten form>fieldset>label {
+    display: block;
+    margin: 15px 0 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.label-pilihan {
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #d5cec4;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.pilihan {
+    padding: 12px;
+    background-color: #f3efe8;
+}
+
+.pilihan p {
+    margin: 8px 0;
+}
+
+.pilihan label {
+    font-size: 13px;
+    margin-right: 12px;
+}
+
+.pilihan input {
+    margin-right: 4px;
+}
+
+.catatan-file {
+    font-size: 11px;
+    color: #77716b;
+}
+
+.aksi {
+    margin-top: 15px;
+    padding-top: 20px;
+    border-top: 1px solid #ded8cf;
+}
+
+.aksi p {
+    color: #77716b;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    background-color: #a64f38;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #843b29;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ded8cf;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #77716b;
+}
